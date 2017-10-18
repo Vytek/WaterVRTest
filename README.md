@@ -28,9 +28,9 @@ Testing it in VR simply doesn't work.
 
 When searching the network, you will find some changes to the base code:
 
-https://gist.github.com/miketucker/7253ec502f9ad205eee8a146481d6a74
-https://forum.unity.com/threads/reflection-rendering-wrong-in-openvr-htc-vive.398756/#post-3091506
-https://github.com/ValveSoftware/openvr/issues/251
+- https://gist.github.com/miketucker/7253ec502f9ad205eee8a146481d6a74
+- https://forum.unity.com/threads/reflection-rendering-wrong-in-openvr-htc-vive.398756/#post-3091506
+- https://github.com/ValveSoftware/openvr/issues/251
 It's time to find the most correct version and above all to check it with the latest updates for the Oculus Rift and the HTC Vive.
 
 There are differences in the proposed shaders that need to be studied and tested:
