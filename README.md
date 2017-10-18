@@ -13,3 +13,8 @@ Cercando in rete si trovano alcune modifiche al codice di base:
 
 E' giunto il momento di trovare la versione più corretta e soprattutto verificarla con gli ultimi aggiornamenti
 per l'Oculus Rift e l'HTC Vive.
+
+Esistono delle differenze negli shader proposti che devono essere studiati e verificati:
+
+![Differenza Codice](https://github.com/Vytek/WaterVRTest/blob/master/Schermata%202017-10-18%20alle%2010.46.33.png)
+
