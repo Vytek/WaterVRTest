@@ -1,0 +1,18 @@
+18.50 15/10/2017
+
+Load from:
+https://gist.github.com/miketucker/7253ec502f9ad205eee8a146481d6a74
+
+@Vytek in quello shader togli la parte
+if (unity_CameraProjection[0][2] < 0)
+    {
+        o.ref.x = (o.ref.x * 0.5f);
+    }
+    else if (unity_CameraProjection[0][2] > 0)
+    {
+        o.ref.x = (o.ref.x * 0.5f) + (o.ref.w * 0.5f);
+    }
+e usa:
+o.ref.x = (o.ref.x * 0.5f) + max(sign(unity_CameraProjection[0][2],0 .0, 1.0),0.0) * (o.ref.w * 0.5f)
+il compilatore ti vorra' bene, e anche alcune piattaforme mobile
+
