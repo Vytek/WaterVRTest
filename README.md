@@ -36,3 +36,10 @@ It's time to find the most correct version and above all to check it with the la
 There are differences in the proposed shaders that need to be studied and tested:
 
 ![Diff](https://github.com/Vytek/WaterVRTest/blob/master/Schermata%202017-10-18%20alle%2010.46.33.png)
+
+**RESULT**
+
+|Scene| Refraction  | Reflection  |
+|:-:|---|---|
+| Scene1  | NOK | NOK |
+| Scene2  | NOK | OK |
