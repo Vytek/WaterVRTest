@@ -37,7 +37,7 @@ There are differences in the proposed shaders that need to be studied and tested
 
 ![Diff](https://github.com/Vytek/WaterVRTest/blob/master/Schermata%202017-10-18%20alle%2010.46.33.png)
 
-**RESULT**
+**RESULT for HTC Vive**
 
 |Scene| Refraction  | Reflection  |
 |:-:|---|---|
