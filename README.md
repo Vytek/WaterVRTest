@@ -62,4 +62,4 @@ There are differences in the proposed shaders that need to be studied and tested
 
 Thanks to:
 
-OculusVR Andrea MArinello
+OculusVR Andrea Marinelli
