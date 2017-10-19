@@ -48,3 +48,18 @@ There are differences in the proposed shaders that need to be studied and tested
 
 - Unity 2017.1.x
 - Unity 2017.2.x
+
+**RESULT for OculusVR**
+
+|Scene| Refraction  | Reflection |
+|:-:|---|---|
+| Scene1  | NOK | NOK |
+| Scene2  | OK | OK |
+
+**Unity Version Used**
+
+- Unity 2017.2.x
+
+Thanks to:
+
+OculusVR Andrea MArinello
