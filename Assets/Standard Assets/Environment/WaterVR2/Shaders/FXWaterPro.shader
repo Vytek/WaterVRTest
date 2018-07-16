@@ -65,12 +65,13 @@ struct v2f {
 		float2 bumpuv1 : TEXCOORD2;
 		float3 viewDir : TEXCOORD3;
 		float eyeIndex : TEXCOORD4;
+		UNITY_FOG_COORDS(5)
 	#else
 		float2 bumpuv0 : TEXCOORD0;
 		float2 bumpuv1 : TEXCOORD1;
 		float3 viewDir : TEXCOORD2;
+		UNITY_FOG_COORDS(3)
 	#endif
-	UNITY_FOG_COORDS(4)
 };
 
 v2f vert(appdata v)
